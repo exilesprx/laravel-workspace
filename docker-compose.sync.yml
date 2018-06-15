@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+
+volumes:
+  applications-sync:
+    external:
+      name: "applications-docker-sync"
